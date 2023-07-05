@@ -1,0 +1,7 @@
+<div>
+    <h3>Taking input from Component 1 -> Parent Component</h3>
+    <br>
+    <input type="text" [(ngModel)]="input" placeholder="Enter some text" />
+    <br>
+    <app-component2 [inputData]="input"></app-component2>
+</div>

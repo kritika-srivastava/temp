@@ -1,0 +1,9 @@
+<p>
+    <input type="text" label="First Name" [(ngModel)]="name" placeholder="Enter First Name" />
+    <input type="text" label="Last Name" [(ngModel)]="surname" placeholder="Enter Last Name" />
+</p>
+<p class="below">
+    <b *ngIf="name != undefined && name != ''">FIRST NAME: </b> {{name}}
+    <br>
+    <b *ngIf="surname != undefined  && surname != ''">LAST NAME: </b> {{surname}}
+</p>

@@ -1,0 +1,20 @@
+.row-header{
+  height: 10vh;
+  width: 100vw;
+  color:navy;
+  background-color: rgb(226, 210, 210);
+  text-align: center;
+}
+.row-main{
+  height: 80vh;
+  width: 100vw;
+}
+.row-footer{
+  position: fixed;
+  bottom: 0;
+  height: 4vh;
+  width: 100vw;
+  color:navy;
+  background-color: rgb(226, 210, 210);
+  text-align: center;
+}

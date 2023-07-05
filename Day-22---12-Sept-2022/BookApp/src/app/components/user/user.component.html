@@ -1,0 +1,78 @@
+
+<div class="container">
+    <div class="card">
+        <div class="card-header text-center">
+            <h3>Registration Form</h3>
+        </div>
+        <span *ngIf="errormessage" class="" alert alert-danger>{{errormessage}}</span>
+        <div class="card-body">
+            <h2></h2>
+            <form [formGroup]="form" (ngSubmit)="adduser()">
+
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" name="username" formControlName="username"
+                        placeholder="Enter Username">
+                    <div *ngIf="f['username'].touched && f['username'].invalid" class="alert alert-warning">
+                        <div *ngIf="f['username'].errors?.['required']">
+                            Username cannot be empty
+                        </div>
+                        <div *ngIf="f['username'].errors?.['minlength']">
+                            Username should be of minimum 6 characters
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="{{type}}" class="form-control" name="password" formControlName="password"
+                        placeholder="Enter password">
+                    <br>
+                    <input type="checkbox" (click)="myFunction()"> Show Password
+                    <div *ngIf="f['password'].touched && f['password'].invalid" class="alert alert-warning">
+                        <div *ngIf="f['password'].errors?.['required']">
+                            Password cannot be empty
+                        </div>
+                        <div *ngIf="f['password'].errors?.['minlength']">
+                            Password should be of minimum 6 characters
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmpassword">Confirm Password</label>
+                    <input type="password" class="form-control" name="confirmpassword" formControlName="confirmpassword"
+                        placeholder="Confirm password">
+                    <div *ngIf="f['confirmpassword'].touched && f['confirmpassword'].invalid"
+                        class="alert alert-warning">
+                        <div *ngIf="f['confirmpassword'].errors?.['required']">
+                            Confirm Password cannot be empty
+                        </div>
+                        <div *ngIf="f['confirmpassword'].errors?.['matching']">
+                            Confirm Password does not match password
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" name="email" formControlName="email"
+                        placeholder="Enter email">
+                    <div *ngIf="f['email'].touched && f['email'].invalid" class="alert alert-warning">
+                        <div *ngIf="f['email'].errors?.['required']">
+                            Email cannot be empty
+                        </div>
+                        <div *ngIf="f['email'].errors?.['email']">
+                            Please enter a valid email
+                        </div>
+                    </div>
+                </div>
+
+
+                <button type="submit" class="btn btn-warning">Submit</button>
+
+            </form>
+        </div>
+    </div>
+</div>

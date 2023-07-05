@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="card">
+
+        <span *ngIf="errormessage">{{errormessage}}</span>
+        <div class="card-header text-center">
+            <h3>Add Book</h3>
+        </div>
+
+        <div class="card-body">
+            <form #bookform="ngForm" (ngSubmit)="bookform.form.valid && addbook()">
+                <label for="bookname">Bookname</label>
+                <input type="text" #bookname="ngModel" [(ngModel)]="book.bookname" class="form-control" name="bookname"
+                    placeholder="Book name" required minlength="4">
+                <div *ngIf="bookname.touched && bookname.invalid" class="alert alert-warning">
+                    <span *ngIf="bookname.errors?.['required']">Book name cannot be empty</span>
+                    <span *ngIf="bookname.errors?.['minlength']">Book name should be a minimum of 4 characters</span>
+                </div>
+
+                <label for="author">Author</label>
+                <input type="text" #author="ngModel" [(ngModel)]="book.author" class="form-control" name="author"
+                    placeholder="Author name" required>
+                <div *ngIf="author.touched && author.invalid" class="alert alert-warning">
+                    <span *ngIf="author.errors?.['required']">Author name cannot be empty</span>
+                </div>
+
+                <label for="pages">Pages</label>
+                <input type="number" #pages="ngModel" [(ngModel)]="book.pages" class="form-control" name="pages"
+                    placeholder="Number of pages" required>
+                <div *ngIf="pages.touched && pages.invalid" class="alert alert-warning">
+                    <span *ngIf="pages.errors?.['required']">Add number of Pages.</span>
+                </div>
+
+                <label for="desc">Description</label>
+                <textarea #desc="ngModel" [(ngModel)]="book.desc" class="form-control" name="desc"
+                    placeholder="Book Description" required></textarea>
+                <div *ngIf="desc.touched && desc.invalid" class="alert alert-warning">
+                    <span *ngIf="desc.errors?.['required']">Description cannot be empty.</span>
+                </div>
+
+                <label for="category">Category</label>
+                <input type="text" #category="ngModel" [(ngModel)]="book.category" class="form-control" name="category"
+                    placeholder="Category" required>
+                <div *ngIf="category.touched && category.invalid" class="alert alert-warning">
+                    <span *ngIf="category.errors?.['required']">Category cannot be empty</span>
+                </div>
+
+
+                <br>
+                <button [disabled]="bookform.form.invalid" class="btn btn-warning">Add</button>
+            </form>
+
+        </div>
+    </div>
+</div>

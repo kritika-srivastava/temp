@@ -1,0 +1,170 @@
+[
+    {
+        "id": 9887,
+        "iid": 1,
+        "project_id": 75280,
+        "title": "Sample Issue #3 for Dom Assignment",
+        "description": "",
+        "state": "opened",
+        "created_at": "2022-09-08T22:49:24.890+05:30",
+        "updated_at": "2022-09-08T22:49:24.890+05:30",
+        "closed_at": null,
+        "closed_by": null,
+        "labels": [],
+        "milestone": null,
+        "assignees": [],
+        "author": {
+            "id": 5893,
+            "name": "srivakk",
+            "username": "srivakk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e08ae149e7e1d12f4f25310978892201?s=80\u0026d=identicon",
+            "web_url": "https://gitlab.stackroute.in/srivakk"
+        },
+        "assignee": null,
+        "user_notes_count": 0,
+        "merge_requests_count": 0,
+        "upvotes": 0,
+        "downvotes": 0,
+        "due_date": null,
+        "confidential": false,
+        "discussion_locked": null,
+        "web_url": "https://gitlab.stackroute.in/srivakk/basic_exercise3/-/issues/1",
+        "time_stats": {
+            "time_estimate": 0,
+            "total_time_spent": 0,
+            "human_time_estimate": null,
+            "human_total_time_spent": null
+        },
+        "task_completion_status": {
+            "count": 0,
+            "completed_count": 0
+        },
+        "has_tasks": false,
+        "_links": {
+            "self": "https://gitlab.stackroute.in/api/v4/projects/75280/issues/1",
+            "notes": "https://gitlab.stackroute.in/api/v4/projects/75280/issues/1/notes",
+            "award_emoji": "https://gitlab.stackroute.in/api/v4/projects/75280/issues/1/award_emoji",
+            "project": "https://gitlab.stackroute.in/api/v4/projects/75280"
+        },
+        "references": {
+            "short": "#1",
+            "relative": "#1",
+            "full": "srivakk/basic_exercise3#1"
+        },
+        "moved_to_id": null,
+        "service_desk_reply_to": null
+    },
+    {
+        "id": 9886,
+        "iid": 1,
+        "project_id": 75282,
+        "title": "Sample Issue #2 for Dom Assignment",
+        "description": "N/A",
+        "state": "opened",
+        "created_at": "2022-09-08T22:49:08.413+05:30",
+        "updated_at": "2022-09-08T22:49:08.413+05:30",
+        "closed_at": null,
+        "closed_by": null,
+        "labels": [],
+        "milestone": null,
+        "assignees": [],
+        "author": {
+            "id": 5893,
+            "name": "srivakk",
+            "username": "srivakk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e08ae149e7e1d12f4f25310978892201?s=80\u0026d=identicon",
+            "web_url": "https://gitlab.stackroute.in/srivakk"
+        },
+        "assignee": null,
+        "user_notes_count": 0,
+        "merge_requests_count": 0,
+        "upvotes": 0,
+        "downvotes": 0,
+        "due_date": null,
+        "confidential": false,
+        "discussion_locked": null,
+        "web_url": "https://gitlab.stackroute.in/srivakk/javascript-basics-assignment/-/issues/1",
+        "time_stats": {
+            "time_estimate": 0,
+            "total_time_spent": 0,
+            "human_time_estimate": null,
+            "human_total_time_spent": null
+        },
+        "task_completion_status": {
+            "count": 0,
+            "completed_count": 0
+        },
+        "has_tasks": false,
+        "_links": {
+            "self": "https://gitlab.stackroute.in/api/v4/projects/75282/issues/1",
+            "notes": "https://gitlab.stackroute.in/api/v4/projects/75282/issues/1/notes",
+            "award_emoji": "https://gitlab.stackroute.in/api/v4/projects/75282/issues/1/award_emoji",
+            "project": "https://gitlab.stackroute.in/api/v4/projects/75282"
+        },
+        "references": {
+            "short": "#1",
+            "relative": "#1",
+            "full": "srivakk/javascript-basics-assignment#1"
+        },
+        "moved_to_id": null,
+        "service_desk_reply_to": null
+    },
+    {
+        "id": 9885,
+        "iid": 1,
+        "project_id": 76985,
+        "title": "Sample Issue #1 for Dom Assignment",
+        "description": "N/A",
+        "state": "opened",
+        "created_at": "2022-09-08T22:48:35.844+05:30",
+        "updated_at": "2022-09-08T22:48:35.844+05:30",
+        "closed_at": null,
+        "closed_by": null,
+        "labels": [],
+        "milestone": null,
+        "assignees": [],
+        "author": {
+            "id": 5893,
+            "name": "srivakk",
+            "username": "srivakk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e08ae149e7e1d12f4f25310978892201?s=80\u0026d=identicon",
+            "web_url": "https://gitlab.stackroute.in/srivakk"
+        },
+        "assignee": null,
+        "user_notes_count": 0,
+        "merge_requests_count": 0,
+        "upvotes": 0,
+        "downvotes": 0,
+        "due_date": null,
+        "confidential": false,
+        "discussion_locked": null,
+        "web_url": "https://gitlab.stackroute.in/srivakk/angular-practice-exercise-scenario1/-/issues/1",
+        "time_stats": {
+            "time_estimate": 0,
+            "total_time_spent": 0,
+            "human_time_estimate": null,
+            "human_total_time_spent": null
+        },
+        "task_completion_status": {
+            "count": 0,
+            "completed_count": 0
+        },
+        "has_tasks": false,
+        "_links": {
+            "self": "https://gitlab.stackroute.in/api/v4/projects/76985/issues/1",
+            "notes": "https://gitlab.stackroute.in/api/v4/projects/76985/issues/1/notes",
+            "award_emoji": "https://gitlab.stackroute.in/api/v4/projects/76985/issues/1/award_emoji",
+            "project": "https://gitlab.stackroute.in/api/v4/projects/76985"
+        },
+        "references": {
+            "short": "#1",
+            "relative": "#1",
+            "full": "srivakk/angular-practice-exercise-scenario1#1"
+        },
+        "moved_to_id": null,
+        "service_desk_reply_to": null
+    }
+]

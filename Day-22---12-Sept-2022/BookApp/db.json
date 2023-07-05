@@ -1,0 +1,68 @@
+{
+  "user": [
+    {
+      "username": "krish123",
+      "password": "krish123",
+      "confirmpassword": "krish123",
+      "email": "krish123@gmail.com",
+      "id": 1
+    },
+    {
+      "username": "sample2",
+      "password": "sample2",
+      "confirmpassword": "sample2",
+      "email": "sample2@gmail.com",
+      "id": 2
+    }
+  ],
+  "book": [
+    {
+      "bookname": "The Midnight Library",
+      "author": "Matt Haig",
+      "pages": 288,
+      "desc": "Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived. To see how things would be if you had made other choices . . . Would you have done anything different, if you had the chance to undo your regrets?\n",
+      "category": "Fiction",
+      "id": 1
+    },
+    {
+      "author": "Hector Garcia",
+      "bookname": "Ikigai",
+      "pages": 208,
+      "desc": "We all have an ikigai. It's the Japanese word for ‘a reason to live’ or ‘a reason to jump out of bed in the morning’. It’s the place where your needs, desires, ambitions, and satisfaction meet. A place of balance. Small wonder that finding your ikigai is closely linked to living longer. Finding your ikigai is easier than you might think. This book will help you work out what your own ikigai really is, and equip you to change your life. ",
+      "category": "Self-development",
+      "id": 2
+    },
+    {
+      "bookname": "The Alchemist",
+      "author": "Paulo Coelho",
+      "pages": 175,
+      "category": "Self-help",
+      "desc": "Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts, of recognizing opportunity and learning to read the omens strewn along life's path, and, most importantly, to follow our dreams.",
+      "id": 3
+    },
+    {
+      "bookname": "How People Tick",
+      "author": "Mike Leibling",
+      "desc": "Absolutely invaluable to everybody, How People Tick is full of tried and tested tips for handling 'difficult' people in 'difficult' situations, based on a real understanding of their behaviour. It is an essential read if you find people bewildering or just plain difficult, and yet still want to understand them, work with them and live with them.",
+      "pages": 288,
+      "category": "Communication, Business",
+      "id": 4
+    },
+    {
+      "bookname": "Atomic Habits",
+      "desc": "If you're having trouble changing your habits, the problem isn't you. The problem is your system. Bad habits repeat themselves again and again not because you don't want to change, but because you have the wrong system for change. You do not rise to the level of your goals. You fall to the level of your systems. Here, you'll get a proven system that can take you to new heights.",
+      "author": "James Clear",
+      "pages": 319,
+      "category": "Non-fiction, Self-help",
+      "id": 5
+    },
+    {
+      "bookname": "Eat that Frog",
+      "author": "Brian Tracy",
+      "pages": 128,
+      "desc": "The legendary Eat That Frog! (more than 450,000 copies sold and translated into 23 languages) provides the 21 most effective methods for conquering procrastination and accomplishing more. This new edition is revised and updated throughout, and includes brand new information on how to keep technology from dominating our time.\n",
+      "category": "Productivity",
+      "id": 6
+    }
+  ]
+}

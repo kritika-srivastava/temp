@@ -1,0 +1,18 @@
+{
+  "blog": [
+    {
+      "title": "Blog #1",
+      "authorName": "Kritika",
+      "email": "kritika@gmail.com",
+      "content": "Sample content #1",
+      "id": 1
+    },
+    {
+      "title": "Sample Blog #2",
+      "authorName": "Kritika",
+      "email": "kritika@email.com",
+      "content": "Content #2",
+      "id": 2
+    }
+  ]
+}

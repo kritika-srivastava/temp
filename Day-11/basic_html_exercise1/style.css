@@ -1,0 +1,70 @@
+.header {
+    height: 275px;
+    width: 960px;
+    border: 1px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+
+.hyperlink {
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.about {
+
+    color: grey;
+    font-size: 20pt;
+}
+
+.block {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.contact {
+    color: green;
+    font-size: 20pt;
+}
+
+.banner {
+    width: 180px;
+    height: 200px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="card-columns">
+        <div *ngFor="let book of books">
+            <div class="card bg-light mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <h4 class="card-title text-success">{{book.bookname}}</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Author: {{book.author}}</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Pages: {{book.pages}}</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Category: {{book.category}}</h6>
+                    <br>
+                    <p class="card-text">{{book.desc}}</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

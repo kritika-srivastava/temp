@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    border: 1px;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 100vw;
+    right: 0;
+    left: 0;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+
+    padding: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.logo {
+    height: 150px;
+    width: 240px;
+
+}
+
+@font-face {
+    font-family: "Monotype Corsiva";
+    src: url(fonts/MonotypeCorsiva.ttf);
+}
+
+.header {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Monotype Corsiva";
+}
+
+a:any-link {
+    color: blueviolet;
+}
+
+.college-images {
+    border-radius: 10pt;
+    width: 210px;
+    height: 160px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    margin: 3pt;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.footer {
+    position: fixed;
+    right: 100px;
+    left: 100px;
+    bottom: 0;
+    border: 1px;
+    height: 50pt;
+    border-style: solid;
+    text-align: center;
+    vertical-align: baseline;
+    border-color: navy;
+    background-color: navy;
+}
+
+.footer-text {
+
+    color: white;
+}
+
+#content-wrap {
+    padding-bottom: 0rem;
+}
+
+.contact {
+    color: green;
+    font-size: 10pt;
+
+}
+
+.about {
+    color: grey;
+    font-size: 10pt;
+}

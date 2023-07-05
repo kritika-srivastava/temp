@@ -1,0 +1,155 @@
+.container {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    position: absolute;
+
+}
+
+.header {
+    background-image: linear-gradient(to right, #610101, #c70202);
+    height: 15%;
+    width: 100%
+}
+
+.logo {
+    height: 90%;
+}
+
+.login {
+    padding-right: 1em;
+    text-align: right;
+    color: white;
+    font-size: 25vm;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.data {
+    padding-right: 1em;
+    text-align: right;
+    color: white;
+    font-size: 15vm;
+    top: 8%;
+    right: 0;
+    position: absolute;
+}
+
+.menu {
+
+    display: table;
+    width: 100%;
+    height: 5%;
+    background-color: #a60202;
+}
+
+.menu-items {
+    padding-left: 2%;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(5, 255, 5);
+    text-decoration: none;
+}
+
+
+
+.left-container {
+
+    height: 55%;
+    width: 80%;
+    float: left;
+}
+
+.images {
+
+    border-radius: 10pt;
+    width: 32vh;
+    height: 15vh;
+    border-color: #eae9d4;
+    border-style: solid;
+    border-width: 5px;
+    padding: 3pt;
+}
+
+figcaption {
+    color: #610101;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+    width: 100%;
+}
+
+.right-container {
+
+    height: 55%;
+    width: 20%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div.button {
+    vertical-align: middle;
+    background-color: #610101;
+    height: 9%;
+    line-height: 250%;
+    padding-left: 5%;
+    width: 95%;
+    margin: 1%;
+}
+
+div.button:hover {
+    background-color: grey;
+}
+
+div.button:hover a {
+    color: rgb(5, 255, 5);
+    text-decoration: none;
+}
+
+.bottom-container {
+    height: 12%;
+}
+
+.heading {
+    font-style: italic;
+    color: #910e06;
+    margin-top: 2pt;
+}
+
+.footer {
+    display: table;
+    background-color: #610101;
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    bottom: 10pt;
+}
+
+.footer-text {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    padding-left: 5%;
+}

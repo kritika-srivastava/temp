@@ -1,0 +1,11 @@
+p {
+    display: block;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+p.below {
+    display: block;
+    text-align: center;
+    padding-top: 5vh;
+}
